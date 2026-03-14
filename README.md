@@ -1,12 +1,34 @@
-# telco-churn-sql-analysis
+# telco-customer-churn-sql-analysis
 # 📊 Telco Customer Churn Analysis | SQL Portfolio Project
 
 ![SQL](https://img.shields.io/badge/SQL-PostgreSQL-blue)
 ![Portfolio](https://img.shields.io/badge/Portfolio-Data%20Analyst-brightgreen)
 
 ## 📌 Project Overview
-Analyzed customer churn for a telecommunications company using PostgreSQL. 
-Identified key factors driving customer churn and provided actionable insights.
+Analyzed customer churn for a telecommunications company using PostgreSQL.
+The analysis identifies key factors driving customer churn and provides actionable insights to improve customer retention.
+
+## Business Problem
+Customer churn is a significant concern for telecom companies.
+Getting a new customer costs more than keeping an old one.
+
+This project examines customer data to find patterns and variables contributing to churn.
+
+## Dataset
+This project uses the **Telco Customer Churn Dataset**, which contains customer information for a telecommunications company.
+
+The dataset is used to analyze customer behavior and identify factors that contribute to customer churn.
+
+Dataset Overview:
+
+• Total Records: 7,043 customers  
+• Total Features: 21 variables  
+• Target Variable: Churn (Yes / No)
+
+Churn represents whether a customer stopped using the company’s services.
+Churn Distribution:
+- No: 5,174 customers (~73%)
+- Yes: 1,869 customers (~27%)
 
 ## 🛠️ Skills Demonstrated
 - **SQL:** CTEs, Aggregations, CASE statements, JOINs, Subqueries
@@ -47,6 +69,7 @@ Identified key factors driving customer churn and provided actionable insights.
 Dataset: [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
 ## 🖥️ SQL Queries
+Below are the SQL queries used to perform the analysis.
 
 ```sql
 -- Overall Churn Rate
