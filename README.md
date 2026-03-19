@@ -59,6 +59,22 @@ Churn Distribution:
 3. Create senior citizen retention program - they churn at nearly double the rate
 4. Review pricing strategy - price-sensitive customers need value packages
 
+## 📊 Tableau Dashboard
+
+Customer Churn Analysis Dashboard
+![image alt](https://github.com/FarisZalfa/sql-telco-customer-churn-analysis/blob/063afc8f5e18c86fd0d2e28884081e58219b9758/Telco%20Customer%20Churn%20Analysis.png)
+
+Tools Used
+- Tableau
+- Data Visualization
+- Exploratory Data Analysis
+
+Key Insights
+- Overall churn rate is 26.5%
+- Month-to-month contracts have highest churn
+- Higher monthly charges correlate with churn
+- Fiber optic customers churn more frequently
+
 ## 🚀 How to Run This Project
 - Download dataset from Kaggle Telco Customer Churn
 - Create PostgreSQL table using provided schema
